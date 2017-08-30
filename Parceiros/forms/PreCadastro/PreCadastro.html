@@ -1,0 +1,59 @@
+<html>
+<head>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+	<link type="text/css" rel="stylesheet" href="custom.css"/>
+	<link type="text/css" rel="stylesheet" href="/portal/resources/style-guide/css/fluig-style-guide.min.css"/>
+	<script type="text/javascript" src="/portal/resources/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+</head>
+<body id="parceiros">
+<div class="fluig-style-guide">
+	<div class="container">
+    	<div id="logo">
+			<img src="img/fluig.png" width="83px" height="83px">
+		</div>
+		<h2 style="padding-bottom: 20px !important">i18n.translate("titulo")</h2>
+		<form name="form" role="form" class="form-horizontal"> 
+			<input type="hidden" value="" id="valor" name="valor" />
+			<div class="row">
+				<div class="form-group">
+			        <!-- <label for="abrangencia" class="col-sm-2 control-label">Abrangência</label> -->
+			        <div class="col-sm-6">
+			        	<button type="button" name="btIncluirAbrang" id="btIncluirAbrang" value="Adicionar" onclick="wdkAddChild('tbl_abrang');" class="btn btn-primary">i18n.translate("adic_abrangencia")</button>
+			        	
+			        	<table tablename="tbl_abrang" noaddbutton="true" cellspacing="1" class="table table-striped">
+						    <thead>
+						        <tr>
+						            <td></td>
+						        </tr>
+						    </thead>
+						    <tr>
+						        <td>
+						        	<input type="text" id="abrangencia" name="abrangencia" value="" class="form-control" />
+						        </td>
+						    </tr>
+						</table>
+					</div>			        	
+					
+					<div class="col-sm-6">
+			        	<button type="button" name="btIncluirCateg" id="btIncluirCateg" value="Adicionar" onclick="wdkAddChild('tbl_categoria');" class="btn btn-primary">i18n.translate("adic_categoria")</button>
+			        	
+			        	<table tablename="tbl_categoria" noaddbutton="true" cellspacing="1" class="table table-striped">
+						    <thead>
+						        <tr>
+						            <td></td>
+						        </tr>
+						    </thead>
+						    <tr>
+						        <td>
+						        	<input type="text" id="categoria" name="categoria" value="" class="form-control" />
+						        </td>
+						    </tr>
+						</table>
+					</div>
+			    </div>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

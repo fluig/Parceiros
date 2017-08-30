@@ -1,0 +1,258 @@
+<!-- Coloque aqui seu codigo CSS -->
+
+.click-tr {
+	cursor: pointer;	
+}
+
+.ui-jqgrid .ui-jqgrid-toppager {
+    background: none repeat scroll 0 0 #f5f5f5 !important;
+    border-bottom: 1px solid #d3d3d3 !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #333333;
+    height: 33px !important;
+    padding-top: 12px !important;
+}
+
+.ui-jqgrid .ui-pg-table td {
+    font-weight: normal;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+#conveniosGrid_toppager {
+	border-top: 1px solid #d3d3d3 !important;
+}
+
+#conveniosGrid-container {
+	display: none;
+	width: 100%;
+	margin-top: 15px; 
+}
+
+.jqgrow {
+	cursor: pointer;	
+}
+
+#coluna1-convenio, #coluna2-convenio {
+	float: left;
+}
+
+#coluna1-convenio {
+	width: 445px;	
+}
+
+#conteudo-convenio {
+	display: block;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+#convenio-modal span {
+	text-transform: lowercase;
+}
+
+#cabecalho-convenio h1 {
+    color: #005888;
+    display: table-cell;
+    font-size: 16px;
+    height: 45px;
+    margin: 0;
+    padding-right: 10px;
+    text-align: right;
+    vertical-align: middle;
+    width: 265px;
+}
+
+#convenio-modal {
+	color: #34495e;
+    font-size: 12px;
+    word-wrap: break-word;
+    margin: 0 auto;
+	width: 865px;
+}
+
+#convenio-modal label{
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: right;
+}
+
+#contato-convenio, #contrato-convenio, #localizacao-convenio, #beneficio-convenio, #info-convenio {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    display: table;
+    height: 110px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 417px;
+}
+
+#localizacao-convenio {
+	height: 195px;
+    width: 863px;
+}
+    
+#contato-convenio ul, #contrato-convenio ul, #localizacao-convenio ul, #beneficio-convenio ul, #info-convenio ul{
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 77px;
+    height: 80px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#contato-convenio ul {
+	background-image: url("../images/telephone37.png");	
+} 
+
+#contrato-convenio ul {
+	background-image: url("../images/contract2.png");
+} 
+
+#localizacao-convenio ul{
+	background-image: url("../images/global5.png");
+} 
+
+#beneficio-convenio ul { 
+	background-image: url("../images/happy47.png");
+}
+
+#info-convenio ul {
+	background-image: url("../images/information52.png");
+}
+
+#mapa {
+	margin-left: 55px;
+	height: 185px;
+	width: 530px;
+	float: right;
+}
+
+#cabecalho-convenio-tit, #cabecalho-convenio-sub {
+	width: 200px;
+	float: left;
+}
+
+#cabecalho-convenio-tit {
+	border-right: 1px solid #d3d3d3;
+    margin-left: 233px;
+}
+
+#cabecalho-convenio-sub ul {
+	display: table-cell;
+	height: 45px;
+	padding-left: 10px;
+	vertical-align: middle;	
+}
+
+#cabecalho-convenio-sub ul li{
+	width: 300px;
+}
+   
+#cabecalho-convenio {
+	overflow: hidden; 
+}
+
+.campo-pesquisa {
+	display: block; 
+	overflow: hidden;
+}
+
+.campo-pesquisa-label {
+	float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    width: 85px;
+}
+
+
+.bootstrap .form-control, .bootstrap .input-group {
+	width: 100%;
+}
+	
+     
+#convenios-titulo {
+    background-image: url("../images/hands-shake.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #006699;
+    display: table-cell;
+    font-weight: bold;
+    height: 51px;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+
+#convenio-container {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 100%;
+}
+
+#conveniosGrid_toppager_center table.ui-pg-table tbody tr td.ui-pg-button.ui-state-disabled span.ui-separator {
+	display: none !important;
+}
+
+#next_t_conveniosGrid_toppager, #prev_t_conveniosGrid_toppager {
+	display: block;
+}
+
+#gbox_conveniosGrid, #conveniosGrid_toppager, div#gview_conveniosGrid.ui-jqgrid-view div.ui-state-default.ui-jqgrid-hdiv,
+div#gview_conveniosGrid.ui-jqgrid-view div.ui-jqgrid-bdiv, #conveniosGrid, 
+div#gview_conveniosGrid.ui-jqgrid-view div.ui-state-default.ui-jqgrid-hdiv div.ui-jqgrid-hbox table.ui-jqgrid-htable  {
+	/*width: 100% !important;*/
+}
+
+
+#gview_conveniosGrid {
+	/*width: 100% !important;*/
+}
+
+#opcao_exibicao, #option_unidade {
+	width: 100%;	
+}
+ 
+#id-iframe {
+	width: 550px;
+    height: 185px;
+} 
+#mapa-container {
+	float: right;
+}
+
+#gif-carrega-dados {
+	margin: 0 auto;
+    width: 48px;
+    display: none;
+    margin-top: 15px;
+}
+
+.ui-jqgrid-bdiv,.ui-jqgrid-hdiv,#conveniosGrid_toppager,#gview_conveniosGrid {
+	width: 100% !important;
+}
+
+.margin-elemento-pesquisa {
+	margin-bottom: 15px !important;
+}
+
+#beneficio-convenio, #info-convenio {
+	display: block;
+    overflow: auto;
+}
+.ui-autocomplete-loading { background:url('../images/spiffygif_48x48.gif') no-repeat right center }
+
+ul.ui-autocomplete{
+	max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 20px;
+    width: 150px;
+}
+    

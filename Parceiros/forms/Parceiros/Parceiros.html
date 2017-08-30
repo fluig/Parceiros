@@ -1,0 +1,157 @@
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<script language="javascript" type="text/javascript" src="js/jquery-2.0.3.min.js"></script> 
+		<script language="javascript" type="text/javascript" src="js/totvs-tdi.js"></script>
+		<script language="javascript" type="text/javascript" src="/webdesk/vcXMLRPC.js"></script>
+		<script src="/ecm_resources/resources/assets/forms/forms.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles/jqx.base.css">
+		<link rel="stylesheet" type="text/css" href="css/jqx.ui-smoothness.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.css">
+		<link rel="stylesheet" type="text/css" href="css/totvs-tdi.css">
+	</head>
+	<body> 
+		<table border="0" width="777">
+			<tbody>
+				<tr>
+					<td align="left" width="100">
+						<img src="images/fluig.png" id="logoFluig" alt="Fluig" title="Fluig" border="0">
+					</td>
+					<td align="center"><h1>i18n.translate("titulo")</h1></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<form >
+			<table class="form" >
+				<tbody>
+					<tr>
+						<th align="right">i18n.translate("nome")</th>
+						<td>
+							<input type="text" id="nome" name="nome" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("categoria")</th>
+						<td>
+							<select name="categoria" id="categoria" dataset="listar_categorias" datasetkey="categoria" datasetvalue="categoria" style="min-width: 400px;"></select>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("unidade")</th>
+						<td>
+							<select name="unidade" id="unidade" dataset="listar_abrangencia" datasetkey="abrangencia" datasetvalue="abrangencia" style="min-width: 400px;"></select>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("pais_unidade")</th>
+						<td>
+							<select id="pais" name="pais" style="min-width: 400px;">
+								<option value="ARGENTINA">i18n.translate("ARGENTINA")</option>
+								<option value="BOLÍVIA">i18n.translate("BOLÍVIA")</option>
+								<option value="BRASIL">i18n.translate("BRASIL")</option>
+								<option value="CANADÁ">i18n.translate("CANADÁ")</option>
+								<option value="CHILE">i18n.translate("CHILE")</option>
+								<option value="COLÔMBIA">i18n.translate("COLÔMBIA")</option>
+								<option value="COSTA_RICA">i18n.translate("COSTA RICA")</option>
+								<option value="CUBA">i18n.translate("CUBA")</option>
+								<option value="ESTADOS_UNIDOS">i18n.translate("ESTADOS UNIDOS")</option>
+								<option value="EL_SALVADOR">i18n.translate("EL SALVADOR")</option>
+								<option value="EQUADOR">i18n.translate("EQUADOR")</option>
+								<option value="GUATEMALA">i18n.translate("GUATEMALA")</option>
+								<option value="HAITI">i18n.translate("HAITI")</option>
+								<option value="HONDURAS">i18n.translate("HONDURAS")</option>
+								<option value="JAMAICA">i18n.translate("JAMAICA")</option>
+								<option value="MÉXICO">i18n.translate("MÉXICO")</option>
+								<option value="PANAMÁ">i18n.translate("PANAMÁ")</option>
+								<option value="PARAGUAI">i18n.translate("PARAGUAI")</option>
+								<option value="PERU">i18n.translate("PERU")</option>
+								<option value="REPÚBLICA_DOMINICANA">i18n.translate("REPÚBLICA DOMINICANA")</option>
+								<option value="URUGUAI">i18n.translate("URUGUAI")</option>
+								<option value="VENEZUELA">i18n.translate("VENEZUELA")</option>
+							</select> 
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("abrang_conv")</th>
+						<td>
+							<select id="abrangencia" name="abrangencia" style="min-width: 400px;">
+								<option value="LOCAL">i18n.translate("local")</option>
+								<option value="NACIONAL">i18n.translate("nacional")</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("contato")</th>
+						<td>
+							<input type="text" id="contato" name="contato" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("telefone")</th>
+						<td>
+							<input type="text" id="telefone" name="telefone" style="min-width: 200px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("celular")</th>
+						<td>
+							<input type="text" id="celular" name="celular" style="min-width: 200px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("email")</th>
+						<td>
+							<input type="text" id="email" name="email" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("endereco")</th>
+						<td>
+							<input type="text" id="endereco" name="endereco" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("site")</th>
+						<td>
+							<input type="text" id="site" name="site" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("possui_contrato")</th>
+						<td>
+							<input type="text" id="contrato" name="contrato" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("vigencia")</th>
+						<td>
+							<input type="text" id="vigencia" name="vigencia" style="min-width: 400px;"></input>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("observ")</th>
+						<td>
+							<textarea id="observacoes" name="observacoes" cols="80"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("beneficio")</th>
+						<td>
+							<textarea id="beneficio" name="beneficio" cols="80"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th align="right">i18n.translate("ativo")</th>
+						<td>
+							<select name="ativo" style="min-width: 100px;">
+								<option value="Sim">i18n.translate("sim")</option>
+								<option value="Nao">i18n.translate("nao")</option>
+							</select>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

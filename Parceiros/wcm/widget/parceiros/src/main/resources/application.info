@@ -1,0 +1,24 @@
+application.type=widget
+application.code=parceiros
+application.title=parceiros
+application.description=Widget de parceiros
+application.category=Fluig Store
+application.renderer=freemarker
+application.icon=icon.png
+developer.code=Fluig Store
+developer.name=Fluig Store
+developer.url=http://www.totvs.com
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=parceiros
+
+application.resource.js.1=/resources/js/parceiros.js
+#application.resource.js.2=/resources/js/vcXMLRPC.js
+application.resource.js.3=/ecm_resources/resources/ecm-plugins.js
+#application.resource.js.9=/resources/js/bootstrap.min.js
+
+application.resource.css.1=/parceiros/resources/css/parceiros.css
+application.resource.css.2=/resources/css/bootstrap.css
+
+application.uiwidget=true
+application.mobileapp=true
